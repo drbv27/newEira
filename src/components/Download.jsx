@@ -7,9 +7,9 @@ export const Download = () => {
             aria-label="View"
             className="inline-block mb-5 rounded-full sm:mx-auto"
           >
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-slate-100">
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-slate-100 dark:bg-eirateal-500">
               <svg
-                className="w-12 h-12 text-eirateal-500"
+                className="w-12 h-12 text-eirateal-500 dark:text-slate-800"
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
@@ -23,10 +23,10 @@ export const Download = () => {
               </svg>
             </div>
           </a>
-          <h2 className="mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+          <h2 className="dark:text-eiraoscuro-500 mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
             Chase ball of string eat
           </h2>
-          <p className="text-base text-gray-700 md:text-lg sm:px-4">
+          <p className="dark:text-slate-300 text-base text-gray-700 md:text-lg sm:px-4">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque rem aperiam, eaque ipsa quae.
           </p>

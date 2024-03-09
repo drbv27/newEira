@@ -23,7 +23,7 @@ export const AmbulanceC = () => {
             <p className="mb-4 text-sm font-bold tracking-widest uppercase text-eiraoscuro-500">
               Beneficios de afiliarte
             </p>
-            <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
+            <div className="dark:text-slate-300 grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
               <ul className="space-y-3">
                 <li className="flex">
                   <span className="mr-1">

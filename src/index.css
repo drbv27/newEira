@@ -14,3 +14,11 @@
 .animate-scroll {
 	animation: scroll 30s linear infinite;
 }
+
+.shadow-white {
+	box-shadow: 0 4px 6px 0 rgba(203, 0, 255, 0.1), 0 1px 3px 0 rgba(255, 255, 255, 0.08);
+  }
+
+  .shadow-slate {
+	box-shadow: 0 4px 6px 0 rgba(203, 213, 225, 0.1), 0 1px 3px 0 rgba(203, 213, 225, 0.08);
+  }
