@@ -1,16 +1,14 @@
-import { Footer } from "./Footer"
-import { Nav } from "./Nav"
+import { Footer } from "./Footer";
+import { Nav } from "./Nav";
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Nav />
-      <div className="dark:bg-slate-800">
-        {children}
-      </div>
+      <div className="dark:bg-slate-100">{children}</div>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

@@ -4,7 +4,7 @@ import aplication from "../assets/banners/imgmujer-min.jpg";
 
 export const Content = () => {
   return (
-    <div className="dark:bg-slate-800 relative flex flex-col-reverse py-16 lg:py-0 lg:flex-col">
+    <div className="dark:bg-slate-100 relative flex flex-col-reverse py-16 lg:py-0 lg:flex-col mb-60">
       <div className="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
         <div className="mb-0 lg:max-w-lg lg:pr-8 xl:pr-6">
           <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-eiraoscuro-500 sm:text-4xl sm:leading-none md:text-center">
@@ -27,7 +27,7 @@ export const Content = () => {
             <p className="mb-4 text-sm font-bold tracking-widest uppercase text-eiraoscuro-500">
               Nuestros Servicios
             </p>
-            <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
+            <div className="dark:text-eirateal-600 font-bold  grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
               <ul className="space-y-3">
                 <li className="flex">
                   <span className="mr-1">

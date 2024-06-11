@@ -5,7 +5,7 @@ export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="dark:bg-slate-800 px-4 py-4 mx-auto lg:py-6 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div className="dark:bg-slate-800 px-4 py-4 mx-auto lg:py-6 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
       <div className="relative flex items-center justify-between lg:justify-center lg:space-x-16">
         <ul className="flex items-center hidden space-x-8 lg:flex">
           <li>

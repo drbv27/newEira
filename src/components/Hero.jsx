@@ -1,31 +1,16 @@
-import { Fade, Slide } from "react-awesome-reveal";
-import {
-  BiSolidAmbulance,
-  BiSolidCameraHome,
-  BiSolidHomeHeart,
-  BiSolidFlask,
-  BiSolidTimeFive,
-  BiMobile,
-} from "react-icons/bi";
-import { Link } from "react-router-dom";
-import ambulance from "../assets/banners/1483.jpg";
-import medic from "../assets/banners/telemedicine.jpg";
-import homem from "../assets/banners/1378.jpg";
-import labo from "../assets/banners/13961.jpg";
-import soporte from "../assets/banners/2149.jpg";
-import aplicacion from "../assets/banners/2223.jpg";
+import { Slide } from "react-awesome-reveal";
 
 export const Hero = () => {
   return (
-    <div className="bg-white dark:bg-slate-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className=" px-4 py-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 mb-60 ">
       <Slide>
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-4xl md:mb-12">
           <div>
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
               Afíliate
             </p>
           </div>
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-eiraoscuro-500 sm:text-4xl md:mx-auto">
+          <h2 className=" mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-eiraoscuro-500 sm:text-8xl md:mx-auto">
             <span className="relative inline-block">
               <svg
                 viewBox="0 0 52 24"
@@ -52,7 +37,7 @@ export const Hero = () => {
             </span>{" "}
             Bienvenido a Eira, tu aliado digital en la gestión médica
           </h2>
-          <p className="text-base text-eirateal-500 md:text-lg">
+          <p className="text-base text-eirateal-500 md:text-2xl">
             En Eira, entendemos que tu tiempo es valioso y que la atención a tus
             pacientes es tu prioridad. Por eso, hemos desarrollado una
             plataforma integral que facilita el registro y manejo de todos los

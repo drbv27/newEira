@@ -5,7 +5,6 @@ import HomeMedicine from "../pages/HomeMedicine";
 import RecetasHome from "../pages/RecetasHome";
 import Laboratorie from "../pages/Laboratorie";
 import Support from "../pages/Support";
-import Aplication from "../pages/Aplication";
 
 const AppRoutes = () => {
   return (

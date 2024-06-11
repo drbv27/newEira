@@ -6,22 +6,22 @@ import { ConsultasMedicas } from "./ConsutasMedicas";
 
 const Carousel = () => {
   return (
-    <div className="my-4">
+    <div className="mb-40">
       <div className="overflow-hidden w-full">
-        <div className="flex whitespace-nowrap animate-scroll">
-          <div className="mx-1 w-[100vw] flex-shrink-0 shadow-2xl  ">
+        <div className="flex flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap animate-scroll">
+          <div className="bg-slate-100 mx-1 w-full sm:w-full md:w-full lg:w-[70vw]  flex-shrink-0 ">
             <HistorialClinico />
           </div>
-          <div className="mx-1 w-[100vw] flex-shrink-0 shadow-2xl ">
+          <div className=" bg-slate-100 mx-1 w-full sm:w-full md:w-full lg:w-[70vw]  flex-shrink-0 ">
             <Recetas />
           </div>
-          <div className="mx-1 w-[100vw] flex-shrink-0 shadow-2xl ">
+          <div className="bg-slate-100 mx-1 w-full sm:w-full md:w-full lg:w-[70vw]  flex-shrink-0 ">
             <Citas />
           </div>
-          <div className="mx-1 w-[100vw] flex-shrink-0 shadow-2xl ">
+          <div className="bg-slate-100 mx-1 w-full sm:w-full md:w-full lg:w-[70vw]  flex-shrink-0 ">
             <Chat />
           </div>
-          <div className="mx-1 w-[100vw] flex-shrink-0 shadow-2xl ">
+          <div className="bg-slate-100 mx-1 w-full sm:w-full md:w-full lg:w-[70vw]  flex-shrink-0 ">
             <ConsultasMedicas />
           </div>
         </div>

@@ -2,7 +2,7 @@ import ambulance from "../assets/historial.jpeg";
 
 export const HistorialClinico = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 shadow-xl">
+    <div className="px-4 py-16 mx-auto max-w-screen-xl md:px-24 lg:px-8 lg:py-20 shadow-xl bg-slate-200">
       <div className="grid gap-10 row-gap-10 lg:grid-cols-2">
         <div className="flex flex-col justify-center order-2 lg:order-1">
           <div className="max-w-xl mb-6">
@@ -21,9 +21,9 @@ export const HistorialClinico = () => {
           <p className="mb-4 text-sm font-bold tracking-widest uppercase text-eiraoscuro-500">
             Beneficios de afiliarte
           </p>
-          <div className="dark:text-slate-300 grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
+          <div className="dark:text-eirateal-600 font-bold  grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
             <ul className="space-y-3">
-              <li className="flex ">
+              <li className="flex">
                 <span className="mr-1">
                   <svg
                     className="w-5 h-5 mt-px text-eiraclaro-500"
@@ -39,7 +39,7 @@ export const HistorialClinico = () => {
                     />
                   </svg>
                 </span>
-                Acceso Rápido y Seguro: Consulta y actualiza la información{" "}
+                Acceso Rápido y Seguro: Consulta y actualiza la información
                 <br />
                 del paciente en cualquier momento y lugar.
               </li>
@@ -59,7 +59,7 @@ export const HistorialClinico = () => {
                     />
                   </svg>
                 </span>
-                Organización Eficiente: Mantén un registro ordenado y detallado{" "}
+                Organización Eficiente: Mantén un registro ordenado y detallado
                 <br />
                 de todas las visitas y tratamientos.
               </li>
@@ -81,7 +81,8 @@ export const HistorialClinico = () => {
                 </span>
                 Historial Completo: Facilita la continuidad del cuidado con un
                 registro
-                <br /> integral de la salud del paciente.
+                <br />
+                integral de la salud del paciente.
               </li>
             </ul>
           </div>
