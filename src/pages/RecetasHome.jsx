@@ -1,11 +1,11 @@
 import Layout from "../components/Layout";
 import { Download } from "../components/Download";
-import { ConsultasMedicas } from "../components/ConsutasMedicas";
+import { Recetas } from "../components/Recetas";
 
-export default function Support() {
+export default function RecetasHome() {
   return (
     <Layout>
-      <ConsultasMedicas />
+      <Recetas />
       {/* <Download /> */}
     </Layout>
   );

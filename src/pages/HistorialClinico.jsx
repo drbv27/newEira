@@ -1,12 +1,12 @@
 import Layout from '../components/Layout'
 import { Download } from '../components/Download'
-import { AmbulanceC } from '../components/AmbulanceC'
+import { HistorialClinico } from '../components/HistorialClinico'
 
 export default function Ambulance() {
   return(
     <Layout>
-      <AmbulanceC/>
-      <Download/>
+      <HistorialClinico/>
+      {/* <Download/> */}
     </Layout>
   )
 }

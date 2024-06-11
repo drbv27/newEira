@@ -1,12 +1,12 @@
 import Layout from '../components/Layout'
 import { Download } from '../components/Download'
-import { Laboratorio } from '../components/Laboratorio'
+import { Chat } from '../components/Chat'
 
 export default function Laboratorie() {
   return(
     <Layout>
-      <Laboratorio/>
-      <Download/>
+      <Chat/>
+      {/* <Download/> */}
     </Layout>
   )
 }

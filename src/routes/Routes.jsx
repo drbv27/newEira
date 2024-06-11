@@ -1,25 +1,22 @@
 import { Route, Routes } from "react-router-dom";
-import Ambulance from "../pages/Ambulance";
 import Home from "../pages/Home";
+import HistorialClinico from "../pages/HistorialClinico";
 import HomeMedicine from "../pages/HomeMedicine";
-import Telemedicine from "../pages/Telemedicine";
+import RecetasHome from "../pages/RecetasHome";
 import Laboratorie from "../pages/Laboratorie";
 import Support from "../pages/Support";
 import Aplication from "../pages/Aplication";
 
-
 const AppRoutes = () => {
-
   return (
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/ambulance" element={<Ambulance />} />
-        <Route path="/telemedicine" element={<Telemedicine />} />
-        <Route path="/homemedicine" element={<HomeMedicine />} />
-        <Route path="/laboratorie" element={<Laboratorie />} />
-        <Route path="/support" element={<Support />} />
-        <Route path="/aplication" element={<Aplication />} />
+        <Route path="/historial-clinico" element={<HistorialClinico />} />
+        <Route path="/recipes" element={<RecetasHome />} />
+        <Route path="/citas" element={<HomeMedicine />} />
+        <Route path="/chat" element={<Laboratorie />} />
+        <Route path="/consultas" element={<Support />} />
       </Routes>
     </>
   );
